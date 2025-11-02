@@ -1,0 +1,1 @@
+<h1><?php echo HEADER;?><?php if(empty($_SESSION['_admin_fname']) == false){?>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:13px; color:#FFF; font-style:italic;">(Welcome <?php echo $_SESSION['_admin_fname'];?>)</span><?php } ?></h1>

@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1340px) {
+  .container {
+    width: 1310px;
+  }
+}
+/*@media (min-width: 1260px) {
+  .container {
+    width: 1230px;
+  }
+}*/
+
+@media only screen and (max-width: 1339px) {
+	
+.logo{width:250px;}	
+header nav{padding:7px 0px;}
+header nav ul li{font-size:13px; padding:0px 16px 0px 20px;}
+
+.home_about_heading{font-size: 60px;}
+.culture_heading span{font-size: 50px; padding-bottom: 10px;}
+
+}
+
+@media only screen and (max-width: 1329px) {
+
+}
+
+@media only screen and (max-width: 1220px) {
+	
+}
+
+@media only screen and (max-width: 1199px) {
+	
+header{padding:10px 0px;}
+
+.message_inner_area{padding-left:0px;}
+.message_inner_left{width:100%; float:none; margin:0px 0px 30px 0px;}
+.message_inner_right{width:100%; float:none;}
+	
+}
+
+@media only screen and (max-width: 991px) {
+
+.home_about_section{padding:40px 0px;}
+.home_about_left{float:none; width:100%;}
+.home_about_right{float:none; width:100%; text-align:center; padding:30px 0px 0px 0px;}
+
+.howyoucanhelp_section{padding:110px 0px 40px 0px;}
+
+.hometeam_section{padding:40px 0px;}
+.hometeam_left{float:none; width:100%;}
+.hometeam_right{float:none; width:100%; padding:40px 0px 0px 0px;}
+
+.culture_section{padding:40px 0px;}
+.culture_left{float:none; width:100%;}
+.culture_right{float:none; width:100%; padding:40px 0px 0px 0px; text-align:center;}
+
+.homenanal_section{padding:70px 0px 40px 0px;}
+.homeslogan_section{padding:0px 0px 40px 0px;}
+
+.newsletter_section{padding:0px 0px 40px 0px;}
+.newsletter_area{background:#4cbb17; padding:30px 15px; position:static; left:auto; top:auto; width:100%;}
+.newsletter_heading{font-size:35px;}
+.newsletter_formblock{width:100%; float:none; margin:0px 0px 0px 0px;}
+.newsletter_formblock:nth-child(3){width:167px; margin:0px;}
+
+footer{padding:0px 0px 0px 0px;}
+.footer_top{padding:50px 0px 0px 0px;}
+.footer_logo{float:none; margin:0px; padding-bottom:30px; text-align:center;}
+
+.inner_area{padding:40px 0px;}
+.inner_container{padding:0px; margin:0px;}
+
+.message_area{padding-left:0px;}
+.message_left{width:100%; float:none; margin:0px;}
+.message_right{width:100%; float:none; margin-bottom:40px;}
+.message_bottom_area{padding:30px 15px;}
+
+.twocolumn_block{margin-top:40px;}
+.twocolumn_left{width:100%; float:none; margin-bottom:30px;}
+.twocolumn_right{width:100%; float:none;}
+.twocolumn_bottom_area{padding-top:50px;}
+
+.twocolumn_bottom_block{width:100%; float:none; margin-left:0px; margin-top:30px; padding:30px 15px;}
+
+.about_left{width:100%; float:none; margin-bottom:40px;}
+.about_right{width:100%; float:none;}
+.about_bottom_area{padding:30px 15px;}
+
+/*.whoweare_section{padding:60px 0px;}
+
+.ourservices_section{padding:40px 0px;}
+
+.advantage_area{display:block;}
+.advantage_left{width:100%; float:none; background:none;}
+.advantage_left img{opacity:1; width:100%;}
+.advantage_right{width:100%; float:none;}
+.advantage_right_content{max-width:100%; padding:30px 15px;}
+
+.ourgallery_block{display:inline-table; width:50%; margin-left:-4px;}
+
+.about_threecolumn_cover{padding:20px 0px 40px;}*/
+
+.contact_area{display:block;}
+.contact_area_left{width:100%; float:none;}
+/*.contact_area_leftcover{padding:30px 15px; min-height:inherit !important;}*/
+.contact_area_right{width:100%; float:none; padding:30px 15px;}
+
+.contact_area_block{padding:0px 0px 0px 30px; font-size:20px; line-height:1.2;}
+.contact_area_block img,
+.contact_area_block i{float:left; margin-left:-30px; line-height:24px;}
+.contact_area_leftblock:last-child{border-bottom:none; margin-bottom:0px;}
+
+.marriageform_area{padding:30px 15px;}
+
+.nanal_form_div{padding:25px;}
+	
+}
+
+@media only screen and (max-width: 767px) {
+
+.banner_area img{opacity:0; height:400px;}
+
+/*.heading{font-size:35px;}*/
+.home_about_heading{font-size:50px;}
+
+.gethelp_section{padding:40px 0px; background-size: cover;}
+
+.culture_heading span{font-size:40px; padding-bottom:10px;}
+
+footer{text-align:center;}
+.footer_area_heading::after{left: 50%;  margin-left: -25px;}
+.footer_top{padding:30px 0px 10px 0px;}	
+.footer_top .row{display:block;}
+/*.footer_mid_blockcontent{padding-left:0px; margin-bottom:20px;}
+.footer_mid_blockcontent i{float:none; margin:0px 10px 0px 0px; vertical-align:middle;}*/	
+
+.message_inner_heading{font-size:35px;}
+.contact_heading{font-size:35px;}
+
+.register_area{padding:30px 15px;}
+.forgot_password_area{float:none; margin:0px 0px 15px 0px;}
+
+.ourmission_block{padding-left:80px; padding-bottom:30px; margin-bottom:30px; font-size:25px; line-height:1.1;}
+.ourmission_block img{width:70px; float:left; margin-left:-80px;}
+
+.retreat_committe{max-width:300px;}
+.retreat_committe_heading{font-weight:600; color:#323232; font-size:30px; line-height:1; margin-bottom:50px;}
+.retreat_committe_left{width:112px; font-size:45px; height:140px;}
+.retreat_committe_right{width:188px; font-size:40px; height:140px;}
+	
+}
+
+@media only screen and (max-width: 599px) {
+
+.hometeam_left_imgarea{padding:0px;}	
+
+}
+
+@media only screen and (max-width: 499px) {
+
+}

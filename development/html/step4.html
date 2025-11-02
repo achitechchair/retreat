@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>:: Nagarathar Sangam of North America ::</title>
+<!-- Bootstrap 3.3.7-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/meanmenu.css" rel="stylesheet" type="text/css" />
+<link href="css/media.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--slider css-->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+<!--js-->
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<!--menu js-->
+<script type="text/javascript" src="js/jquery.meanmenu.js"></script>
+<script>
+jQuery(document).ready(function () {
+    jQuery('header nav').meanmenu();
+});
+</script>
+<!--header resize-->
+<script type="text/javascript" src="js/classie.js"></script>
+
+<!--slider js-->
+<script type="text/javascript" src="js/jquery-flexslider.min.js"></script>
+<script type="text/javascript" src="js/jquery-flexslider-setup.js"></script>
+
+<!--carosal js-->
+<script src="carosul/jquery.jcarousellite_1.0.1.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#carosul1").jCarouselLite({
+		btnNext: "#next_button1",
+		btnPrev: "#previous_button1",
+		visible:4,
+		scroll: 1,
+		auto:0 
+	});
+});
+</script>
+<link href="carosul/carosulstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('nav ul li:has(ul)').addClass('menu_drop');
+		
+		$('.menu_drop').mouseover(function() {
+			$(this).addClass('menu_up');
+		});
+		
+		$('.menu_drop').mouseout(function() {
+			$(this).removeClass('menu_up');
+		});
+	});
+</script>
+
+<script type="text/javascript" src="accordian/accordion.js"></script>
+<script type="text/javascript" src="accordian/accordion-control.js"></script>
+
+</head>
+<body>
+<!-------------- Header ------------------->
+<header class="inner_header">
+	<div class="container">
+		<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+		<div class="header_right">
+			<!--menu-->
+			<nav>
+				<ul>
+					<li><a href="" class="active">Retreat 2024</a>
+						<ul>
+							<li><a href="">Packages</a></li>
+							<li><a href="">Hotel Info </a></li>
+							<li><a href="">Directions</a></li>
+							<li><a href="">Youth Activities</a></li>
+						</ul>
+					</li>
+					<li><a href="">Updates</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">FAQ</a></li>
+				</ul>
+				<div class="clear"></div>
+			</nav>
+			<!--menu end--> 
+			<div class="header_button"><a href="">Register Now</a></div>	
+		</div>
+	</div>
+	<div class="clear"></div>
+</header>
+<div class="header_mobilenav"></div>
+
+<!------------------- Header end------------------->
+<div class="clear"></div>
+
+<section class="inner_area">
+	<div class="container">
+		<div class="inner_container" style="max-width:100%;">
+			<div style="font-size:30px; color: #2F2D9B; font-weight: 600; text-transform: uppercase; padding-bottom:30px;">Family Photo Book</div>
+			<div class="register_area">
+				<div class="row">
+					<div class="col-md-12" style="padding-bottom: 20px;"><p class="style1">Upload family photo in Retreat Book? <span>*</span></p>
+						<div><input name="" type="radio" value="" />  YES &nbsp;&nbsp;&nbsp; <input name="" type="radio" value="" />  NO</div>
+						<div class="clear"></div>
+					</div>
+					<div class="col-md-12"><p class="style1">If Yes, Upload Image <span>*</span></p><input name="" type="file" value="" class="input3" /></div>
+					<div class="col-md-12"><p class="style1">Full Names of Members in Photo <span>*</span></p><textarea placeholder="" class="input4"></textarea></div>
+					<br>
+					<hr style="border:none; height: 1px; background-color: #CCC;">
+					<br>
+					<div class="col-md-12"><p class="style1">Any special requirements that the retreat committee needs to know? <span>*</span></p><textarea placeholder="" class="input4"></textarea></div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+				<input name="" type="button" value="Submit" class="submit" />
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</section>
+
+<div class="clear"></div>
+
+<footer>
+	<div class="container">
+		<div class="footer_logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
+		<ul>
+			<li><a href="" class="active">Retreat 2024</a></li>
+			<li><a href="">Updates</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">FAQ</a></li>
+		</ul>
+		<div class="footer_bottom">&copy; 2023 Achi.org. All Rights Reserved.</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade registration_popup" id="platinum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content">
+			<div class="modal-body">
+				<div data-dismiss="modal" aria-label="Close" class="package_close" style="cursor:pointer;"><img src="images/close.png" alt="" /></div>
+				<div class="pricing_block">
+					<div class="pricing_block_heading1">Platinum</div>
+					<div class="pricing_block_heading2">$10,000</div>
+					<div class="pricing_block_content">
+						<div>
+							<p>2-Room Hotel Suite or Connected rooms with double-queens and overlooking scenic</p>
+							<p>Ford Lake at Eagle Crest Resort</p>
+							<p>3 Nights stay</p>
+							<p>2 Youth Activity Regn.</p>
+							<p>Free parking</p>
+							<p>Platinum Gift package</p>
+							<p>Registration for up to 8 people</p>
+							<p>Food for 8 people</p>
+							<p>Banquet Dinner for up to 8 people</p>
+							<p>Premium Full Page Souvenir Ad</p>
+							<p>Aatha Appachi Package - privilege to preside over Thirukalyanam as parents of bride or groom.</p>
+							<p>Recognition in front of the entire crowd at the Auditorium.</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		  </div>
+	</div>
+</div>
+<div class="modal fade" id="diamond" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  	<div class="modal-content">
+			<div class="modal-body">
+				<div data-dismiss="modal" aria-label="Close" class="package_close" style="cursor:pointer;"><img src="images/close.png" alt="" /></div>
+				<div class="pricing_block">
+					<div class="pricing_block_heading1">Diamond</div>
+					<div class="pricing_block_heading2">$5,000</div>
+					<div class="pricing_block_content">
+						<div>
+							<p>Double Queen Hotel Room overlooking scenic Ford Lake at Eagle Crest Resort</p>
+							<p>3 Nights stay</p>
+							<p>2 Youth Activity Regn.</p>
+							<p>Free Parking spot</p>
+							<p>Architecture Tour</p>
+							<p>Diamond Gift package</p>
+							<p>Registration for up to 4 people</p>
+							<p>Food for up to 4 people</p>
+							<p>Banquet Dinner for up to 4</p>
+							<p>Full Page Souvenir Ad</p>
+							<p>Mama-karanga package - privilege to preside over Thirukalyanam as Mama karanga. Recognition in front of crowd at the Auditorium.</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>	
+			</div>
+	  	</div>
+	</div>
+</div>
+<div class="modal fade" id="gold" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  	<div class="modal-content">
+			<div class="modal-body">
+				<div data-dismiss="modal" aria-label="Close" class="package_close" style="cursor:pointer;"><img src="images/close.png" alt="" /></div>
+				<div class="pricing_block">
+					<div class="pricing_block_heading1">Gold</div>
+					<div class="pricing_block_heading2">$3,500</div>
+					<div class="pricing_block_content">
+						<div>
+							<p>Double Queen Hotel Room in Eagle Crest Resort</p>
+							<p>3 Nights stay</p>
+							<p>Free Parking spot</p>
+							<p>Gold Gift package</p>
+							<p>Registration for up to 4 people</p>
+							<p>Food for 4 people</p>
+							<p>Banquet for 4 people</p>
+							<p>Quarter Page Sourveir Ad</p>
+							<p>Pangaali package - privilege to perform Pangaali responsibilities as part of Thirukalyanam.</p>
+							<p>Recognition in front of crowd at the Auditorium</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+	  	</div>
+	</div>
+</div>
+<div class="modal fade" id="silver" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  	<div class="modal-content">
+			<div class="modal-body">
+				<div data-dismiss="modal" aria-label="Close" class="package_close" style="cursor:pointer;"><img src="images/close.png" alt="" /></div>
+				<div class="pricing_block">
+					<div class="pricing_block_heading1">Silver</div>
+					<div class="pricing_block_heading2">$2,200</div>
+					<div class="pricing_block_content">
+						<div>
+							<p>Family Registration</p>
+							<p>Food for 4 people, food for 2 days and breakfast on 3rd day.</p>
+							<p>1 Hotel Room for 2 nights at Eagle Crest Resort</p>
+							<p>Early Bird Pricing of $2100 if registering by end of March</p>
+							<p>Gift package</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+	  	</div>
+	</div>
+</div>
+<div class="modal fade" id="family" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  	<div class="modal-content">
+			<div class="modal-body">
+				<div data-dismiss="modal" aria-label="Close" class="package_close" style="cursor:pointer;"><img src="images/close.png" alt="" /></div>
+				<div class="pricing_block">
+					<div class="pricing_block_heading1">Family</div>
+					<div class="pricing_block_heading2">$2,000</div>
+					<div class="pricing_block_content">
+						<div>
+							<p>Family Registration</p>
+							<p>Food for 4 people, food for 2 days and breakfast on 3rd day.</p>
+							<p>1 Hotel Room for 2 nights</p>
+							<p>Early Bird Pricing of $1900 if registering by end of March</p>
+							<p>Gift package</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+	  	</div>
+	</div>
+</div>
+<div class="modal fade" id="termsconditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  	<div class="modal-content">
+			<div class="modal-body">
+				<div class="package_heading">Terms & Conditions</div>
+				<div data-dismiss="modal" aria-label="Close" class="package_close" style="cursor:pointer;"><img src="images/close.png" alt="" /></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum augue, viverra non auctor sed, accumsan vel ex. Nunc laoreet dolor nec eros posuere, at gravida nunc lobortis. Aliquam fringilla maximus sem volutpat pulvinar. Mauris ut neque elit. Nullam dictum imperdiet dignissim. Aenean at tempor sem. Nam sodales vitae neque sed sagittis. Maecenas commodo neque non venenatis volutpat. Ut id ex scelerisque, fermentum tortor lacinia, ornare justo. Fusce cursus sem et erat elementum, sed lobortis est varius. Suspendisse massa risus, tristique sed diam nec, consequat pharetra velit. Pellentesque vitae est sit amet felis tincidunt tempus quis vitae enim. Nulla scelerisque lorem eros, eget blandit elit convallis in. Mauris nec eros nisl. Suspendisse id placerat orci. Duis dui nulla, volutpat eu viverra non, consequat ut turpis.</p>
+				<p>Curabitur non accumsan libero. Etiam aliquet sapien tortor, id molestie diam feugiat vitae. Vivamus bibendum leo at elementum ultricies. Aliquam condimentum lacus vel dapibus egestas. Praesent imperdiet consequat luctus. Praesent non sollicitudin orci, non pharetra ante. Sed ante erat, vestibulum ultrices vehicula tincidunt, malesuada non tellus. Duis iaculis vitae metus id egestas.</p>
+				<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed porttitor laoreet imperdiet. Sed a purus eu odio bibendum fermentum. Donec lobortis augue nec nibh mattis sollicitudin. Praesent nec dignissim odio. Integer egestas porttitor turpis. Donec at ex tristique, lobortis enim sit amet, pulvinar risus. Sed est justo, dapibus eu massa eget, tincidunt eleifend justo. Proin consectetur erat vitae iaculis hendrerit. Nullam placerat commodo sollicitudin. Duis egestas libero ac neque semper fringilla. Sed dignissim at quam vitae tempor. Ut a gravida enim, a tincidunt nisi. Nam fringilla velit at mauris dictum commodo.</p>
+			</div>
+	  	</div>
+	</div>
+</div>
+
+<p id="back-top"><a href="#top"><img src="images/back-to-top.png" /></a></p>
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<!--scroll to top--> 
+<script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
+</body>
+</html>

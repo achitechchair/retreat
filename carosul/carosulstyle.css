@@ -1,0 +1,97 @@
+#carosul_wrapper{clear:both; height:/*146px*/; margin:0px; width:100%; position: relative;}
+	
+#carosul{width:100% !important; margin:0 auto; padding-top:65px;}
+#carosul .containerr{width:100%;/*width:1266px;*/ margin:auto !important; padding:0px;  overflow:hidden;}
+#carosul ul {margin: 0;  padding:0; position:absolute;}          
+#carosul ul li{width:305px; height:421px; padding:0px; margin:0px 20px 0px 0px; list-style:none; float:left;}
+
+#carosul .previous_button{width:39px; height:39px; background:url(button_left.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; left:100%; margin-left:-90px; top:0;}
+#carosul .next_button{width:39px; height:39px; background:url(button_right.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; right:0%; margin-right:0px; top:0;}
+
+@media only screen and (max-width:1339px) {
+#carosul{width:955px !important;}
+#carosul .containerr{width:955px;}
+}
+@media only screen and (max-width:991px) {
+#carosul{width:630px !important;}
+#carosul .containerr{width:630px;}	
+}
+@media only screen and (max-width:767px) {
+/*#carosul ul li{width:330px; height:286px;}
+#carosul{width:330px !important;}
+#carosul .containerr{width:330px;}*/
+#carosul{width:305px !important;}
+#carosul .containerr{width:305px;}
+}
+
+
+#carosul1{width:100% !important; margin:0 auto; padding-top:50px;}
+#carosul1 .containerr{width:100%;/*width:1266px;*/ margin:auto !important; padding:0px;  overflow:hidden;}
+#carosul1 ul {margin: 0;  padding:0; position:absolute;}          
+#carosul1 ul li{width:435px; height:810px; padding:0px; margin:0px 30px 0px 0px; list-style:none; float:left;}
+
+#carosul1 .previous_button1{width:40px; height:40px; background:url(button_left.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; left:100%; margin-left:-90px; top:0px;}
+#carosul1 .next_button1{width:40px; height:40px; background:url(button_right.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; right:0%; /*margin-right:-50px;*/ top:0px;}
+
+@media only screen and (max-width:1425px) {
+#carosul1{width:900px !important;}
+#carosul1 .containerr{width:900px;}
+}
+@media only screen and (max-width:991px) {
+#carosul1{width:435px !important;}
+#carosul1 .containerr{width:435px;}	
+}
+@media only screen and (max-width:599px) {
+#carosul1 ul li{width:330px; height:800px;}
+#carosul1{width:330px !important;}
+#carosul1 .containerr{width:330px;}
+
+}
+
+
+
+#carosul2{width:100% !important; margin:0 auto; padding-bottom:65px;}
+#carosul2 .containerr{width:100%;/*width:1266px;*/ margin:auto !important; padding:0px;  overflow:hidden;}
+#carosul2 ul {margin: 0;  padding:0; position:absolute;}          
+#carosul2 ul li{width:406px; height:172px; padding:0px; margin:0px 31px 0px 0px; list-style:none; float:left;}
+
+#carosul2 .previous_button2{width:39px; height:39px; background:url(button_left.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; left:50%; margin-left:-45px; bottom:0;}
+#carosul2 .next_button2{width:39px; height:39px; background:url(button_right.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; right:50%; margin-right:-45px; bottom:0;}
+
+@media only screen and (max-width:1339px) {
+#carosul2{width:843px !important;}
+#carosul2 .containerr{width:843px;}
+}
+@media only screen and (max-width:991px) {
+#carosul2{width:406px !important;}
+#carosul2 .containerr{width:406px;}	
+}
+@media only screen and (max-width:599px) {
+#carosul2 ul li{width:330px; height:235px;}
+#carosul2{width:330px !important;}
+#carosul2 .containerr{width:330px;}
+}
+
+
+
+
+#carosul3{width:100% !important; margin:0 auto; padding-bottom:65px;}
+#carosul3 .containerr{width:100%;/*width:1266px;*/ margin:auto !important; padding:0px;  overflow:hidden;}
+#carosul3 ul {margin: 0;  padding:0; position:absolute;}          
+#carosul3 ul li{width:305px; height:415px; padding:0px; margin:0px 20px 0px 0px; list-style:none; float:left;}
+
+#carosul3 .previous_button3{width:33px; height:33px; background:url(button1.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; left:50%; margin-left:-38px; bottom:0;}
+#carosul3 .next_button3{width:33px; height:33px; background:url(button2.png) no-repeat center center; position:absolute; z-index:100; cursor:pointer; right:50%; margin-right:-38px; bottom:0;}
+
+@media only screen and (max-width:1339px) {
+#carosul3{width:955px !important;}
+#carosul3 .containerr{width:955px;}
+}
+@media only screen and (max-width:991px) {
+#carosul3{width:630px !important;}
+#carosul3 .containerr{width:630px;}	
+}
+@media only screen and (max-width:599px) {
+#carosul3{width:305px !important;}
+#carosul3 .containerr{width:305px;}
+}

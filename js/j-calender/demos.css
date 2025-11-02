@@ -1,0 +1,15 @@
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 13px;
+}
+
+.demo-description {
+	clear: both;
+	padding: 12px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}

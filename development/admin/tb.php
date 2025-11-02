@@ -1,0 +1,1 @@
+<!--<div id="footer" class="span12"> <?php echo date('Y');?> &copy; <?php echo TITLE;?> </div>-->

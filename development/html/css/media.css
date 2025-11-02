@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1426px) {
+  .container {
+    width: 1396px;
+  }
+}
+/*@media (min-width: 1260px) {
+  .container {
+    width: 1230px;
+  }
+}*/
+
+@media only screen and (max-width: 1425px) {
+	
+.signature_left{width:100%; float:none; background-color:#ff8500;}
+.signature_right{width:100%; float:none;}
+.signature_left_content{width:100%; max-width:900px; margin:auto; padding:40px 15px; float:none; min-height:inherit; background:none;}
+.signature_left_content_area{max-width:100%;}
+.signature_right_content{width:100%; max-width:900px; margin:auto; padding:40px 15px;}
+
+.faq_left{display:none;}
+.faq_right{width:100%; float:none;}
+.faq_right_content{width:100%; max-width:900px; margin:auto; padding:40px 15px;}
+	
+}
+
+@media only screen and (max-width: 1329px) {
+
+}
+
+@media only screen and (max-width: 1220px) {
+	
+}
+
+@media only screen and (max-width: 1199px) {
+
+header{width:100%; padding:18px 0px; position:static; top:auto; left:auto; background-color:#151630;}
+.header_button{margin:0px 35px 0px 0px;}
+.home_about_bottom img{max-width:30%;}
+	
+}
+
+@media only screen and (max-width: 991px) {
+
+.contact_area{display:block;}
+.contact_area_left{width:100%; float:none;}
+.contact_area_right{width:100%; float:none; padding:30px 15px;}
+
+.contact_area_block{padding:0px 0px 0px 30px; font-size:20px; line-height:1.2;}
+.contact_area_block img,
+.contact_area_block i{float:left; margin-left:-30px; line-height:24px;}
+.contact_area_leftblock:last-child{border-bottom:none; margin-bottom:0px;}	
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+.banner_area img{height:500px;}
+
+.joinus_left{width:100%; float:none; padding:30px 15px;}
+.joinus_right{display:none;}
+
+.signature_text1{font-size:30px;}
+.signature_text2 {font-size:20px; letter-spacing:0;}
+.signature_text4 {font-size:50px; letter-spacing:0;}
+.signature_right_heading {font-size:30px;}
+.signature_right_content li{font-size:20px; padding:10px 0px;}
+.home_about_section {padding:40px 0px 40px 0px;}
+.home_about_bottom img:nth-child(2){margin: 70px 5px 0px 5px;}
+.pricing_block_content{padding:30px 10px;}
+.pricing_block_heading1{font-size:30px; padding:15px 0px;}
+.pricing_block_heading2{font-size:30px; padding:15px 0px;}
+.pricing_heading{font-size:40px; padding-bottom:30px;}
+.heading{font-size:30px;}
+.onestop_block,
+.faqarea .onestop_block{padding:25px 35px 25px 15px;} 
+.faq_heading span{right:-30px;}
+
+footer li{display:block;}
+footer li:after{content:''; padding-left:0px; padding-right:0px;}
+
+.inner_area{padding:40px 0px;}
+.register_area{padding:30px 15px;}
+
+}
+
+@media only screen and (max-width: 599px) {
+
+}
+
+@media only screen and (max-width: 499px) {
+
+}

@@ -1,0 +1,78 @@
+<?php 
+	require_once("includes/config.inc.php");
+?>
+<?php 
+	include_once('doctype.php');
+?>
+<head>
+<?php require_once('title.inc.php');?>
+<?php require_once('js.css.inc.php');?>
+</head>
+<body>
+<!-------------- Header ------------------->
+<header class="inner_header">
+	<?php include_once('header.php');?>
+</header>
+<div class="header_mobilenav"></div>
+
+<!------------------- Header end------------------->
+<div class="clear"></div>
+<!------------------- Slider area------------------->
+<!------------------- Slider area------------------->
+<section class="inner_banner" style="background-image:url(<?php echo MAIN_WEBSITE_URL;?>/images/inner-banner.jpg);">
+<img src="<?php echo MAIN_WEBSITE_URL;?>/images/inner-banner.jpg" />
+    <div class="flexcaption">
+        <div class="container">
+            <div class="flexcaption_area">
+                <div class="flexcaption_style4">Program Schedule</div>
+            </div>
+        </div>
+    </div>
+	<div class="clear"></div>
+<div class="flexcaption_darkshade"></div>    
+</section>
+<!------------- Slider area end----------------->
+
+<div class="clear"></div>
+
+<section class="inner_area">
+	<div class="container">
+		<div class="inner_container StaticContent" style="margin: 0px;">
+			<p style="font-size: 40px; line-height: 1; color: rgb(47, 45, 155); font-weight: 600; padding-bottom: 30px; margin: 0px;">Program Schedule</p>
+			<!-- <p><span>&#10803;</span> July 4 - 3 pm Registration Starts</p>
+			<p><span>&#10803;</span> July 4 - 7 PM Banquet</p>
+			<p><span>&#10803;</span> July 4 - 9.30 Chettinad Beats</p> -->
+			<p><span>&#10803;</span> July 4 - 3 pm Registration Starts</p>
+			<p><span>&#10803;</span> July 4 - 5 - 6:30 pm NANBEN Social</p>
+			<p><span>&#10803;</span> July 4 - 7 PM Banquet</p>
+			<p><span>&#10803;</span> July 4 - 9.30 Chettinad Beats</p>
+			<hr>
+			<p><span>&#10803;</span> July 5 - 7 am Breakout  sessions starts</p>
+			<p><span>&#10803;</span> July 5 - 9 am Grand Opening</p>
+			<p><span>&#10803;</span> July 5 - 3 Pm Stage program followed by Dinner at Ford Auditorium</p>
+			<p><span>&#10803;</span> July 5 - 10 PM Post Dinner Entertainment at Resort</p>
+			<hr>
+			<p><span>&#10803;</span> July 6 - 7 am Breakout  sessions starts</p>
+			<p><span>&#10803;</span> July 6 - 10 am Meenakshi thirukalyanam</p>
+			<p><span>&#10803;</span> July 6 - 3 Pm Stage program followed by Dinner at Ford Auditorium</p>
+			<p><span>&#10803;</span> July 6 - 10 pm Dance floor at Resort</p>
+			<hr>
+			<!-- <p><span>&#10803;</span> July 7 - Annual general Body meeting</p>
+			<p><span>&#10803;</span> July 7 - 11 am check out</p> -->
+			<p><span>&#10803;</span> July 7 - Annual general Body meeting</p>
+			<p><span>&#10803;</span> July 7 - 9 am - 1 pm Youth Small group Networking event</p>
+			<p><span>&#10803;</span> July 7 - 11 am check out</p>
+			<hr>
+			<p>* All Food will be served at Resort except July 5 & 6 Dinner</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</section>
+<div class="clear"></div>
+
+<footer>
+	<?php include_once('footer.php');?>
+</footer>
+<?php include_once('common-footer.php');?>
+</body>
+</html>

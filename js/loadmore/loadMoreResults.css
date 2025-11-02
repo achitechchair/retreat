@@ -1,0 +1,29 @@
+
+/**
+	* Load More Results - Example Styles
+	* Author: Cenk Çalgan
+*/
+
+
+
+.btn-load-more {
+ /* font-size: 14px;
+  color: #fff;
+  background-color: #00712c;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer; */
+  line-height:42px; 
+  background-color:transparent; 
+  font-size:14px; 
+  font-weight:600; 
+  text-transform:uppercase;
+  color:#e1909f; 
+  display:inline-block;
+  padding:0px 26px; 
+  border:2px solid #e1909f;
+}
+
+.btn-load-more:hover {background-color:#e1909f; color:#FFFFFF; }
